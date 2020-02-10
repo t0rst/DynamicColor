@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DynamicColor'
-  s.version          = '5.0.0'
+  s.version          = '5.0.1'
   s.license          = 'MIT'
   s.swift_version    = ['5.0', '5.1']
   s.summary          = 'Yet another extension to manipulate colors easily in Swift (UIColor, NSColor and SwiftUI)'

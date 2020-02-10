@@ -1,3 +1,15 @@
+This is a temporary fork of [yannickl/DynamicColor](https://github.com/yannickl/DynamicColor), which removes `SwiftUIColor.swift` from the main `Sources` directory, pending a fix of [Broken release builds – misconfigured SwiftUI dependency](https://github.com/yannickl/DynamicColor/issues/59). Use this fork via CocoaPods with
+```ruby
+pod 'DynamicColor', :git => 'https://github.com/t0rst/DynamicColor.git', :tag => '5.0.1'
+# ...use temporary fork; revert to original DynamicColor repo if this fork is no longer available.
+```
+or via Carthage with
+```
+github "t0rst/DynamicColor" ~> 5.0.1
+# ...use temporary fork; use original repo ("yannickl/DynamicColor") if this fork is no longer available.
+```
+As in the comments, this repo will be deleted when it's safe to switch back to the original.
+----
 <p align="center">
   <img src="http://yannickloriot.com/resources/dynamiccolor-header.png" alt="DynamicColor">
 </p>
